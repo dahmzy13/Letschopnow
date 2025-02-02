@@ -11,7 +11,7 @@ export function Navbar() {
     <nav className="container mx-auto px-4 sm:px-6 py-4 sm:py-6 flex flex-wrap justify-between items-center">
       <Link to="/" className="text-orange-500 text-xl sm:text-2xl font-bold">chopnow</Link>
       <div className="flex items-center space-x-3 sm:space-x-6">
-        <Link to="/about" className="text-white hover:text-orange-500 text-sm sm:text-base">Our Story</Link>
+        <Link to="/about" className="text-white hover:text-orange-500 text-sm sm:text-base">About Us</Link>
         
         {/* Sign In Dropdown */}
         <div className="relative">
